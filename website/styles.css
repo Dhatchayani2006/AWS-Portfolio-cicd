@@ -576,10 +576,11 @@ section {
     backdrop-filter: blur(20px);
     transition: all 0.3s ease;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .project-card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     box-shadow: 0 20px 40px rgba(59, 130, 246, 0.2);
 }
 
